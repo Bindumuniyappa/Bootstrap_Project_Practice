@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 .bg-teal ,.btn-teal{
     background-color:rgb(41, 94, 94) !important ;
 }
@@ -7,5 +10,17 @@
 }
 
 .carousel-caption{
-    margin-bottom: 250px;
+    margin-bottom: 100px;
+}
+
+@media (max-width:576px) {
+    .carousel-caption{
+       margin-bottom: 10px;
+    }
+    .carousel-caption h5{
+        font-size: 30px;
+    }
+    .carousel-caption p{
+        display: none;
+    }
 }
