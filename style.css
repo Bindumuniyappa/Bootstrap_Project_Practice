@@ -5,3 +5,7 @@
 .text-teal{
     color:rgb(49, 107, 107) !important
 }
+
+.carousel-caption{
+    margin-bottom: 250px;
+}
